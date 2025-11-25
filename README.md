@@ -1,101 +1,82 @@
-✈️ Airline Passenger Satisfaction Analysis & ANN Classification Model
-📌 Overview
+# ✈️ **Airline Passenger Satisfaction Analysis & ANN Model**
 
-This project focuses on analyzing an Airline Passenger Satisfaction Survey dataset to understand the factors that influence customer satisfaction.
-Using Exploratory Data Analysis (EDA) and an Artificial Neural Network (ANN) model, the project identifies key drivers of satisfaction and predicts whether a passenger is Satisfied or Dissatisfied.
+## 📌 **Overview**
+This project analyzes an **Airline Passenger Satisfaction Survey dataset** to understand which factors influence passenger satisfaction.  
+Using Exploratory Data Analysis (EDA) and an **Artificial Neural Network (ANN)**, the project predicts whether a passenger is *Satisfied* or *Dissatisfied*.
 
-🎯 Problem Statement
+---
 
-Airlines collect large amounts of survey data, but identifying the exact causes of customer satisfaction remains difficult.
-The goal of this project is to analyze survey data, extract insights, and build a predictive ANN model that helps airlines improve customer experience and reduce dissatisfaction.
+## 🎯 **Problem Statement**
+Airlines collect customer feedback, but identifying the root causes of satisfaction or dissatisfaction is challenging.  
+This project aims to analyze key service and demographic factors and build a predictive ANN model to support data-driven decision-making.
 
-🎯 Objectives
+---
 
-Analyze and preprocess airline survey data (~100k+ rows).
+## 🎯 **Objectives**
+- Perform EDA on airline passenger satisfaction data (100k+ rows).  
+- Identify major factors influencing satisfaction.  
+- Build an **ANN classification model**.  
+- Evaluate performance using accuracy, precision, recall, and AUC.  
+- Provide insights for improving airline services.
 
-Identify key factors that influence passenger satisfaction.
+---
 
-Build an ANN classification model to predict satisfaction.
+## 📂 **Dataset Information**
+- **Dataset Size:** ~100,000 rows  
+- **Features Include:**  
+  - Demographics → Age, Gender, Travel Type, Class  
+  - Service Ratings → WiFi, Food, Cleanliness, Seat Comfort  
+  - Flight Details → Arrival/Departure Delay  
+  - **Target Variable** → Satisfaction
 
-Evaluate model performance using accuracy, precision, recall, and AUC.
+---
 
-Provide data-driven insights for airlines to improve service quality.
+## 🛠️ **Technologies Used**
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-Learn  
+- TensorFlow / Keras  
+- Jupyter Notebook  
 
-📂 Dataset Information
+---
 
-Dataset Size: 100,000+ records
+## 🔍 **Project Workflow**
 
-Features Include:
+### 1️⃣ **Data Preprocessing**
+- Handling missing values  
+- Label encoding categorical features  
+- Normalizing numerical columns  
+- Removing duplicate records  
 
-Demographics: Age, Gender, Type of Travel, Class
+### 2️⃣ **Exploratory Data Analysis**
+- Satisfaction distribution analysis  
+- Correlation between service ratings and satisfaction  
+- Delay impact analysis  
+- Visualization using heatmaps & bar charts  
 
-Service ratings: WiFi, Food & Drink, Cleanliness, Seating Comfort, etc.
+### 3️⃣ **ANN Model Development**
+- Input Layer: All processed features  
+- Hidden Layers: Dense layers with ReLU  
+- Output Layer: Sigmoid (Binary classification)  
+- Loss Function: Binary Cross-Entropy  
+- Optimizer: Adam  
 
-Flight-related: Departure delay, Arrival delay
+### 4️⃣ **Model Evaluation**
+- Accuracy  
+- Precision, Recall  
+- Confusion Matrix  
+- ROC-AUC  
 
-Target: Satisfaction (Satisfied / Neutral or Dissatisfied)
+---
 
-🛠️ Tech Stack
+## 📊 **Key Insights**
+- WiFi service, Seat Comfort, Cleanliness, and Online Boarding strongly influence satisfaction.  
+- Long delays reduce satisfaction significantly.  
+- Business-class passengers show higher satisfaction levels.  
+- ANN model achieved strong prediction performance.
 
-Programming Language: Python
+---
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
 
-ML Framework: TensorFlow/Keras
 
-Modeling: ANN (Artificial Neural Network)
-
-Environment: Jupyter Notebook / VS Code
-
-🔍 Workflow
-1️⃣ Data Preprocessing
-
-Handling missing values
-
-Label encoding categorical features
-
-Normalizing continuous variables
-
-Removing duplicates
-
-2️⃣ Exploratory Data Analysis
-
-Distribution of satisfaction levels
-
-Correlation analysis
-
-Impact of delays & service ratings
-
-Visualization of high-impact features
-
-3️⃣ ANN Model Development
-
-Input Layer: All selected features
-
-Hidden Layers: Dense layers with ReLU
-
-Output Layer: Sigmoid (Binary classification)
-
-Loss Function: Binary Cross-Entropy
-
-Optimizer: Adam
-
-4️⃣ Evaluation Metrics
-
-Accuracy
-
-Precision & Recall
-
-Confusion Matrix
-
-ROC-AUC
-
-📊 Key Insights
-
-In-flight WiFi, Seat Comfort, Cleanliness, and Online Boarding significantly affect satisfaction.
-
-Passengers with long delays are more likely to be dissatisfied.
-
-Business-class passengers generally report higher satisfaction.
-
-ANN model performs well with high prediction accuracy.
