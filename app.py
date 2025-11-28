@@ -8,7 +8,7 @@ import joblib
 # PAGE CONFIG
 # -------------------------------------------------------
 st.set_page_config(
-    page_title="Airline Passenger Satisfaction • Pro Dashboard",
+    page_title="Airline Passenger Satisfaction",
     page_icon="✈️",
     layout="wide",
 )

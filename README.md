@@ -22,7 +22,7 @@ This project aims to analyze key service and demographic factors and build a pre
 ---
 
 ## 📂 **Dataset Information**
-- **Dataset Size:** ~100,000 rows  
+- **Dataset Size:** Worked with more than 100,000 rows  
 - **Features Include:**  
   - Demographics → Age, Gender, Travel Type, Class  
   - Service Ratings → WiFi, Food, Cleanliness, Seat Comfort  
